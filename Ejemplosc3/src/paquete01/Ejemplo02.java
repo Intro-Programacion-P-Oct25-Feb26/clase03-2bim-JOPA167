@@ -24,6 +24,7 @@ public class Ejemplo02 {
         System.out.printf("Valor en la posición [0][2]\n%d", arreglo1[0][2]);
        
         arreglo1[0][2] = 1000;
+        arreglo1[1][2] = 3000;
         
                
         for (int fila = 0; fila < arreglo1.length; fila++) {
